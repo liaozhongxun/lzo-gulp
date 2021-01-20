@@ -1,50 +1,51 @@
 {
-  "name": "ts57",
-  "description": "ts57",
-  "author": "leo",
-  "engines": {
-    "node": ">= 0.8.0"
-  },
-  "scripts": {
-    "start": "gulp sass && gulp minify && gulp watch"
-  },
-  "devDependencies": {
-    "browser-sync": "^2.18.2",
-    "del": "^2.2.2",
-    "gulp": "^4.0.2",
-    "gulp-autoprefixer": "^3.1.1",
-    "gulp-concat": "^2.6.0",
-    "gulp-connect": "^5.7.0",
-    "gulp-csscomb": "^3.0.8",
-    "gulp-csso": "^2.0.0",
-    "gulp-html-minify": "0.0.14",
-    "gulp-htmlmin": "^2.0.0",
-    "gulp-htmlrefs": "^0.3.6",
-    "gulp-if": "^2.0.1",
-    "gulp-imagemin": "^3.0.3",
-    "gulp-plumber": "^1.1.0",
-    "gulp-preprocess": "^2.0.0",
-    "gulp-replace": "^0.5.4",
-    "gulp-rev": "^7.1.2",
-    "gulp-rev-all": "^0.8.24",
-    "gulp-sass": "^4.1.0",
-    "gulp-shell": "^0.5.2",
-    "gulp-sourcemaps": "^2.2.0",
-    "gulp-uglify": "^2.0.0",
-    "gulp-usemin": "^0.3.24",
-    "gulp-useref": "^3.1.2",
-    "gulp-watch": "^4.3.11",
-    "gulp-zip": "^3.2.0",
-    "imagemin-pngquant": "^5.0.0",
-    "jquery": "^3.1.1",
-    "node-sass": "^5.0.0"
-  },
-  "dependencies": {
-    "jquery": "^3.1.1"
-  },
-  "combo": {},
-  "keywords": [
-    "lib",
-    "tbm"
-  ]
+    "name": "ts57",
+    "description": "ts57",
+    "author": "leo",
+    "engines": {
+        "node": ">= 0.8.0"
+    },
+    "scripts": {
+        "start": "cross-env NODE_ENV=production gulp sass && gulp minify && gulp watch"
+    },
+    "devDependencies": {
+        "browser-sync": "^2.18.2",
+        "cross-env": "^7.0.3",
+        "del": "^2.2.2",
+        "gulp": "^4.0.2",
+        "gulp-autoprefixer": "^3.1.1",
+        "gulp-concat": "^2.6.0",
+        "gulp-connect": "^5.7.0",
+        "gulp-csscomb": "^3.0.8",
+        "gulp-csso": "^2.0.0",
+        "gulp-html-minify": "0.0.14",
+        "gulp-htmlmin": "^2.0.0",
+        "gulp-htmlrefs": "^0.3.6",
+        "gulp-if": "^2.0.1",
+        "gulp-imagemin": "^3.0.3",
+        "gulp-plumber": "^1.1.0",
+        "gulp-preprocess": "^2.0.0",
+        "gulp-replace": "^0.5.4",
+        "gulp-rev": "^7.1.2",
+        "gulp-rev-all": "^0.8.24",
+        "gulp-sass": "^4.1.0",
+        "gulp-shell": "^0.5.2",
+        "gulp-sourcemaps": "^2.2.0",
+        "gulp-uglify": "^2.0.0",
+        "gulp-usemin": "^0.3.24",
+        "gulp-useref": "^3.1.2",
+        "gulp-watch": "^4.3.11",
+        "gulp-zip": "^3.2.0",
+        "imagemin-pngquant": "^5.0.0",
+        "jquery": "^3.1.1",
+        "node-sass": "^5.0.0"
+    },
+    "dependencies": {
+        "jquery": "^3.1.1"
+    },
+    "combo": {},
+    "keywords": [
+        "lib",
+        "tbm"
+    ]
 }
