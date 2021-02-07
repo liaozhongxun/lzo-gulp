@@ -92,3 +92,10 @@ gulp.task("getJquery", function (done) {
 });
 
 gulp.task("default", gulp.series("sass", "minify", "getJquery", "watch"));
+
+
+/**
+ * 流
+ * 文件系统
+ * 任务管理
+ */
